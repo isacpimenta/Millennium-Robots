@@ -1,54 +1,38 @@
 @charset "UTF-8";
 
-#twosection {
+#section-conteiner {
     margin: 20px auto 0 auto;
-    padding: 2px;
+    padding: 5px 0;
     text-align: center;
     border: 5px solid var(--cor08);
-    max-width: 570px;
-    min-height: 80px;
+    max-width: 400px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-section a#button {
+#section-conteiner a#button {
+    margin-left: 20px;
     background-color: var(--cor06);
     font-family: var(--fontbold );
     padding: 5px;
     color: var(--corbranca);
     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.267);
-    margin-right: 20px;
 }
 
-section #button:hover {
+#section-conteiner #button:hover {
     text-decoration: none;
-    min-width: 570px;
-    min-height: 80px;
     font-size: 18px;
 }
 
 @media screen and (max-width: 768px){
     section h1 {
         text-align: center;
-        font-size: 1.2em;
+        font-size: 1.8em;
     }
     
     section p {
-        font-size: 1em;
-    }
-
-    #twosection {
-        max-width: 370px;
-        min-height: 50px;
-    }
-
-    #twosection h2 {
-        font-size: 1.2em;
-    }
-
-    section a#button {
-        font-size: 0.8em;
+        font-size: 1.1em;
     }
 }
