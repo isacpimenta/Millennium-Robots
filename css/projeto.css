@@ -29,3 +29,29 @@ section #button:hover {
     min-height: 80px;
     font-size: 18px;
 }
+
+@media screen and (max-width: 768px){
+    section h1 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    section p {
+        font-size: 1em;
+    }
+
+    #twosection {
+        max-width: 370px;
+        min-height: 50px;
+    }
+
+    #twosection h2 {
+        font-size: 1.2em;
+        margin-bottom: 15px;
+    }
+
+    section a#button {
+        font-size: 0.8em;
+        margin-top: 5px;
+    }
+}
