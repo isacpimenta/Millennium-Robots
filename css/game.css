@@ -35,4 +35,17 @@
     section p {
         font-size: 1.1em;
     }
+
+    section h2 {
+        font-size: 1.2em;
+    }
+
+    #section-conteiner a#button {
+        margin-left: 10px;
+        background-color: var(--cor06);
+        font-family: var(--fontbold );
+        padding: 5px;
+        color: var(--corbranca);
+        box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.267);
+    }
 }

@@ -1,2 +1,63 @@
 @charset "UTF-8";
 
+#lista {
+    margin-bottom: 50px;
+}
+
+#lista h1 {
+    margin: 0 0 30px 0;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    height: 48px;
+    margin: 10px 0 10px 20px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.conteiner p {
+    margin: 0;
+    text-indent: 20px;
+}
+
+#local {
+    margin-top: 100px;
+}
+
+#local h1 {
+    margin-bottom: 15px;
+}
+
+#conteiner-map {
+    border: 5px solid black;
+}
+
+@media screen and (max-width:520px){
+    section h1 {
+        text-align: center;
+        font-size: 1.4em;
+    }
+    
+    .icon {
+        margin: 10px 0 10px 8px;
+        display: flex;
+        flex-direction: column;
+        width: 24px;
+        height: 24px;
+    }
+
+    .conteiner p {
+        font-size: 1em;
+        text-indent: 5px;
+    }
+}
