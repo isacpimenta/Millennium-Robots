@@ -24,8 +24,6 @@ section a#button {
 
 section #button:hover {
     text-decoration: none;
-    min-width: 570px;
-    min-height: 80px;
     font-size: 18px;
 }
 
