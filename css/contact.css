@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+main {
+    flex-grow: 1;
+}
+
 #lista {
     margin-bottom: 50px;
 }
