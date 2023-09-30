@@ -38,9 +38,25 @@
     margin-bottom: 15px;
 }
 
+/* Estilo para o contêiner do mapa */
 #conteiner-map {
+    position: relative;
+    width: 100%;
+    /* Defina a proporção desejada (exemplo: 16:9) */
+    padding-bottom: 56.25%; /* (altura / largura) * 100% */
+    overflow: hidden;
     border: 5px solid black;
 }
+
+/* Estilo para o iframe dentro do contêiner do mapa */
+#conteiner-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 @media screen and (max-width:520px){
     section h1 {
